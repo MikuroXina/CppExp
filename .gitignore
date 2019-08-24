@@ -1,6 +1,7 @@
 CMakeFiles/
 CmakeCache.txt
 cmake_*
+exp
 exp.test
 Makefile
 .DS_Store
