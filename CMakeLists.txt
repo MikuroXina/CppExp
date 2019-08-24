@@ -4,6 +4,11 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c++17 -O0 -g")
 include_directories(
     /usr/local/include
     )
+add_executable(exp main.cpp)
+set_target_properties(exp PROPERTIES
+    CXX_STANDARD 17
+    CXX_EXTENSIONS OFF
+    )
 add_executable(exp.test exp.test.cpp)
 target_link_libraries(exp.test
     pthread
