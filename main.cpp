@@ -1,4 +1,4 @@
-#include "exp.cpp"
+#include "exp.hpp"
 
 #include <iostream>
 
@@ -7,7 +7,4 @@ int main() {
   cin.tie(nullptr);
   ios::sync_with_stdio(false);
 
-  int x1, x2;
-  cin >> x1 >> x2;
-  cout << distance(x1, x2) << "\n";
 }
