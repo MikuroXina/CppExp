@@ -5,3 +5,6 @@ exp
 exp.test
 Makefile
 .DS_Store
+lib/
+include/
+
