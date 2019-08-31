@@ -1,6 +1,6 @@
 #include "exp.hpp"
 
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 
 TEST(ETest, Test1) {}
 
